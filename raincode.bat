@@ -41,5 +41,6 @@ set substring=!mystring:~0,3480!
 set "mystring=!newtoplinestring!!substring!"
 cls
 echo !mystring!
+:: sleep for one second before looping again
 PING 1.1.1.1 -n 1 -w 1.0 >NUL
 )
